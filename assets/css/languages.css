@@ -4,22 +4,25 @@
     font-family: var(--font-action);
     color: #4b4b4b;
 }
+
 .sessao-languages .sessao-header h1{
     padding-top: 2rem;
     
 }
+
 .sessao-languages-content{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
     align-items: center;
 }
+
 .sessao-languages-content-item{
     width: 30%;
     margin: 2rem; 
-    text-align:center;
-    
+    text-align:center; 
 }
+
 /*responsiveness*/
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
 

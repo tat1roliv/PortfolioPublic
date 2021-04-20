@@ -1,4 +1,3 @@
-
 footer{
     width: 100%;
     height: 6rem;
@@ -7,32 +6,37 @@ footer{
     justify-content:center;
     align-items:center;
 }
+
 .footer-content{
     width: 60%;
     display:flex;
     justify-content: space-between;
-
 }
+
 .footer-content p{
     color: #cccccc;
     font-family: var(--font-secundary);
     font-size: 1rem;
 }
+
 .footer-content a{
     margin: 0 2rem;
     text-decoration: none;
     color: #cccccc;
     transition: all 0.5s;
 }
+
 .footer-content a:hover{
     color: #ff0157;;
     font-size: 2rem;
 }
+
 .social-list{
     margin: 0 2rem;
     color: #cccccc;
     font-size:1rem;
 }
+
 .social-list ul{
     display: flex; 
 }

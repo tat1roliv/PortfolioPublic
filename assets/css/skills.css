@@ -20,7 +20,6 @@
     border-radius: .5rem;
 }
 
-
 .skills-img-wrapper img{
     object-fit: cover;
     width: 100%;
@@ -30,6 +29,7 @@
     display:flex;
     align-items: center;
 }
+
 .skill-header:hover{
     color:#ff0157;
 }
@@ -38,6 +38,7 @@
     font-size: 2.5rem;
     color: #4b4b4b;
 }
+
 .skill-header i:hover{
     color: #ff0157;
     font-size: 2.7rem;
@@ -71,7 +72,6 @@
 
 /*responsiveness*/
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
-
 @media only screen and (min-width:768px){
     .sessao-skills .sessao-header h1{
     padding-top: 4rem;
