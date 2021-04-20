@@ -72,14 +72,6 @@
 /*responsiveness*/
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
 
-@media only screen and (min-width:360px){
-
-}
-
-@media only screen and (min-width:480px){
-
-}
-
 @media only screen and (min-width:768px){
     .sessao-skills .sessao-header h1{
     padding-top: 4rem;

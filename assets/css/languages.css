@@ -16,7 +16,22 @@
 }
 .sessao-languages-content-item{
     width: 30%;
-    margin: 2rem 2rem 3rem 2rem; 
+    margin: 2rem; 
     text-align:center;
     
 }
+/*responsiveness*/
+/*breakpoints 360 | 480 | 768 | 980 | 1200 */
+
+@media only screen and (min-width:360px){
+    .sessao-languages-content{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .sessao-languages-content{
+        flex-direction: row;
+    }
+}
+
