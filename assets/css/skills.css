@@ -1,0 +1,152 @@
+.sessao-skills{
+    background-color:#f5f5f5;
+    width: 100%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat( 16, 1fr);
+    grid-template-rows: repeat(13, 2rem);
+    gap: 1rem;
+    color: #4b4b4b;
+}
+
+/*HTML*/
+.skill:nth-child(1){
+    grid-column: 4/7;
+    grid-row:2/5;
+}
+
+/*CSS*/
+.skill:nth-child(2){
+    grid-column: 7/11;
+    grid-row:1/4;
+}
+
+/*Js*/
+.skill:nth-child(3){
+    grid-column: 11/14;
+    grid-row:2/5;
+}
+
+/*Bootstrap*/
+.skill:nth-child(4){
+    grid-column: 4/7;
+    grid-row:8/10;
+}
+
+/*Github*/
+.skill:nth-child(5){
+    grid-column: 7/11;
+    grid-row:10/13;
+}
+
+/*java*/
+.skill:nth-child(6){
+    grid-column: 11/14;
+    grid-row:8/10;
+}
+
+/*react*/
+.skill:nth-child(7){
+    grid-column: 2/4;
+    grid-row:5/9;
+}
+
+/*python*/
+.skill:nth-child(8){
+    grid-column: 14/16;
+    grid-row:5/9;
+}
+
+/*img*/
+.skills-img-wrapper{
+    grid-column: 7/11;
+    grid-row:5/11;
+}
+.skills-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.skill-header {
+    display:flex;
+    align-items: center;
+}
+.skill-header:hover{
+    color:#ff0157;
+}
+
+.skill-header i{
+    font-size: 2.5rem;
+    color: #4b4b4b;
+}
+.skill-header i:hover{
+    color: #ff0157;
+    font-size: 2.7rem;
+}
+
+.skill-header h3{
+    font-family: var(--font-action);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.skill-header h3:hover{
+    color: #ff0157;
+    font-size: 1.7rem;
+}
+
+.skill-text{
+    font-family: var(--font-primary);
+    font-weight: lighter;
+    margin-top: 1rem;
+    color: #4b4b4b;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.skill-text a:hover{
+    color: #ff0157;
+}
+
+/*responsiveness*/
+/*breakpoints 360 | 480 | 768 | 980 | 1200 */
+
+@media only screen and (min-width:360px){
+ 
+}
+
+@media only screen and (min-width:480px){
+
+}
+
+@media only screen and (min-width:768px){
+    .sessao-skills .sessao-header h1{
+    padding-top: 4rem;
+    }
+    .skills{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10fr, 2rem);
+        grid-template-areas:
+        ".skill-item-1",
+        ".skill-item-2",
+        ".skill-item-3",
+        ".skill-item-4",
+        ".skill-item-5",
+        ".skill-item-6",
+        ".skill-item-7",
+        ".skill-item-8",
+        ".skill-item-9";
+
+    }
+}
+
+@media only screen and (min-width:940px){
+    .sessao-skills .sessao-header h1{
+        padding-top: 3rem;
+        }
+}
+
+

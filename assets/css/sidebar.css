@@ -1,0 +1,58 @@
+
+.sidebar{
+    width:20rem;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all 1s;
+    z-index: 100;
+}
+.show-menu .sidebar{
+    right: 0rem;
+}
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu-item{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.menu-link{
+    font-family: var(--font-action) ;
+    font-size:1.5rem;
+    color: #555;
+    transition-duration: color 1s;
+}
+.menu-link:hover{
+    color: #ff0157;
+}
+.social-media{
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.social-media i{
+    background-color:  #ffffff;
+    color: #00B4DB;
+    height:2.5rem;
+    width:2.5rem;
+    font-size:2rem;/*icone de font awesome*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 1s;
+}
+.social-media i:hover{
+    color: #ff0157;
+}
+
+

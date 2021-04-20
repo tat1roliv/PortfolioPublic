@@ -1,0 +1,69 @@
+/*************
+global styles
+**************/
+
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;1,400;1,500&family=Mulish:ital,wght@0,400;0,500;1,300;1,400&display=swap');
+/*cdn font-awesome*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+:root{
+    --font-primary: 'Baloo 2', serif;
+    --font-secundary: 'Josefin Slab', serif;
+    --font-action: 'Mulish', serif ;
+    --color-primary: #ffffff; 
+    --color-altprimary: #eeeeee;
+    --color-secundary: #00b3dbe3;
+    --color-altsecundary: #0083B0;
+    --color-font: #262626;
+}
+html{
+   scroll-behavior: smooth; 
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 2rem;
+    height: 2rem;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  
+    background: linear-gradient(to left, #0083B0, #00B4DB); 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--color-primary);
+    border-radius:50%;
+    box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5) ;
+}
+#link-topo:hover{
+    background:#ff0157;
+}
+
+.sessao-header{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.sessao-header h1{
+    font-family: var(--font-primary);
+    font-size: 3rem;
+    color: #4b4b4b;
+    border-bottom: 3px solid #0083B0;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
