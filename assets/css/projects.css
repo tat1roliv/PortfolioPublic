@@ -114,10 +114,10 @@
             bottom: 36%;
         }
         .card:hover #card-info-card1{
-            bottom: 68%;
+            bottom: 15%;
         }
         .card:hover #card-info-card2{
-            bottom: 40%;
+            bottom: 15%;
 
         }
 }
