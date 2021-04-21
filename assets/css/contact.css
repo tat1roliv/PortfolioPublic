@@ -97,7 +97,7 @@
 
 .btn-submit:hover{
     color: #ffffff;
-    background: #ff0157;
+    background: var(--color-contrast);;
 }
 
 /*responsiveness*/

@@ -66,7 +66,7 @@ header{
 }
 
 .banner button:hover{
-    background:#ff0157;
+    background:var(--color-contrast);
 }
 
 .banner a{

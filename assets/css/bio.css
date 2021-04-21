@@ -149,7 +149,7 @@
 }
 
 .bio-text a:hover{
-    color: #ff0157;
+    color: var(--color-contrast);
     font-size: 1.2rem;
 }
 

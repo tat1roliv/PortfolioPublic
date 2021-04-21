@@ -27,7 +27,9 @@ a{
     --color-altprimary: #eeeeee;
     --color-secundary: #00b3dbe3;
     --color-altsecundary: #0083B0;
+    --color-action: #00B4DB;
     --color-font: #262626;
+    --color-contrast: #ff0157;
 }
 html{
    scroll-behavior: smooth; 

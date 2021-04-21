@@ -27,7 +27,7 @@ footer{
 }
 
 .footer-content a:hover{
-    color: #ff0157;;
+    color: var(--color-contrast);
     font-size: 2rem;
 }
 

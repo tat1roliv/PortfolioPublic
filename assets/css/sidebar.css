@@ -33,7 +33,7 @@
 }
 
 .menu-link:hover{
-    color: #ff0157;
+    color: var(--color-contrast);
 }
 
 .social-media{
@@ -58,7 +58,7 @@
 }
 
 .social-media i:hover{
-    color: #ff0157;
+    color: var(--color-contrast);
 }
 
 
