@@ -21,17 +21,17 @@
     width: 100%;
     height: 100%;
     border-radius: 0.5rem;
-    opacity: .8;  
+    opacity: .5;  
     transition:opacity .5s;
 }
 
 .card:hover .card-image-wrapper img{
-    opacity: 0.5;
+    opacity: 0.2;
 }
 
 .card-info{
-    opacity:0;
-    visibility:hidden;
+    /*opacity:0;*/
+   /*visibility:hidden;*/
     position: absolute;
     bottom: 0;
     padding: 2rem;
@@ -44,15 +44,14 @@
     font-size:2rem;
     font-weight:500;
     color: #eeeeee;
-
 }
 
 .card-info h3{
     font-family: var(--font-action);
     font-weight: bolder;
-    color: #00B4DB;
+    color: var(--color-secundary);
     font-size:1.5rem;
-    margin-bottom:1.5rem;
+    margin-bottom:1rem;
 }
 
 .card-info p{
@@ -61,7 +60,7 @@
     width: 80%;
     font-weight: bolder;
     font-size: 1.2rem;
-    margin-bottom:2rem;
+    margin-bottom:1.5rem;
     text-shadow:0 .4rem .8rem rgba(0,0,0,0.4)
 }
 
@@ -80,11 +79,6 @@
     color: #ffffff;
 }
 
-.btn-projects:hover{
-    background:var(--color-contrast);
-    color:#ffffff;
-}
-
 .btn-projects a:hover{
     color:#ffffff;
     text-decoration: none;
@@ -98,9 +92,19 @@
 
 .card:hover .card-info {
     bottom: 2rem;
-    opacity:1;
-    visibility:visible;
+    /*opacity:1;*/
+    /*visibility:visible;*/
 }
+
+.card:hover .card-info h3{
+    color: var(--color-contrast);
+}
+
+.card:hover .btn-projects{
+    background:var(--color-contrast);
+    color:#ffffff;
+}
+
 
 /*responsiveness*/
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
