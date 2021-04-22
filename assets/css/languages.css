@@ -4,12 +4,13 @@
     font-family: var(--font-action);
     color: #4b4b4b;
 }
-
+/*
 .sessao-languages .sessao-header h1{
-    padding-top: 2rem;
+    margin-top: 10%;
     
 }
 
+*/
 .sessao-languages-content{
     display: flex;
     flex-direction:row;

@@ -51,7 +51,7 @@ html{
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5) ;
 }
 #link-topo:hover{
-    background:#ff0157;
+    background:var(--color-contrast);;
 }
 
 .sessao-header{
@@ -65,7 +65,13 @@ html{
     font-size: 3rem;
     color: #4b4b4b;
     border-bottom: 3px solid #0083B0;
-    padding-top: 2rem;
-    margin-bottom: 2rem;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
 }
 
+hr {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    border: 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  }
