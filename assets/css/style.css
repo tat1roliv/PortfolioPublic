@@ -73,5 +73,9 @@ hr {
     margin-top: 20vh;
     margin-bottom: 20vh;
     border: 0;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 162, 255, 0.438);
   }
+
+ #linet1{
+    margin-top: 0;  
+}
