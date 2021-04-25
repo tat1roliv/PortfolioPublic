@@ -7,9 +7,13 @@
     align-items:center;
     justify-content: center;
     margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .contact-wrapper{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
     width: 60%;
     display: flex;
     height:30rem;

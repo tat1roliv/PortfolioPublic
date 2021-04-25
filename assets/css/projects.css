@@ -1,7 +1,14 @@
+.sessao-projects{
+    padding-bottom: 2rem;
+}
+
 .projects{
     display: flex;
     justify-content:space-evenly;
     position: relative;
+}
+.sessao-projects .sessao-header h1{
+    margin-top: -7%;
 }
 
 .card{
