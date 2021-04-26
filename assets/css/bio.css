@@ -8,7 +8,6 @@
    
 }
 
-
 .bio-info{
     display: flex;
 }
@@ -206,26 +205,35 @@
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
 
 @media only screen and (min-width:360px){
+
+    .sessao-bio{   
+        height:165vh;
+    }
+    
     .bio-info{
         display: inline-block;  
     }
+
     .bio-card{
         margin-top: 2rem;
     }
+
     .container .bio:hover{
         width: 90%;
        height: 90vh;
        z-index: 100;
-        
     }
+
     .bio:hover .social-container a{
         transform: translate(3rem);
     }
+
     .bio-body{
         flex: 2;
         margin-left: 1rem;
  
     }
+
     .bio-tittle-item{
         top: 160%;
     }
@@ -234,41 +242,53 @@
 
 @media only screen and (min-width:768px){
 
+    .sessao-bio{   
+        height:100vh;
+    }
+
     .bio-info{
         display: flex;  
     }
+
     .bio-card{
         margin-top: 2rem;
     }
+
     .container .bio:hover{
         margin-top: 2vh;
         width: 90%;
         height: 85vh;
         
     }
+
     .bio-body{
         flex: 1;
         margin-left: 0;
 
     }
+
     .bio-tittle-item{
         top: auto;
     }
+
 }
 
 @media only screen and (min-width:940px){
 
     .container .bio:hover{
         margin-top: 5vh;
-
     }
+
 }
 @media only screen and (min-width:1200px){
+
     .container .bio:hover{
         width: 70%;
         height:80vh;
     }
+
     .bio:hover .social-container a{
         transform: translate(4rem);
     }
+
 }
