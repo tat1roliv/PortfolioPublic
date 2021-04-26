@@ -7,15 +7,14 @@
 
 .sessao-languages .sessao-header h1{
     margin-top: -7%;  
-
 }
 
 .sessao-languages-content{
     display: flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-bottom:4rem; 
+    margin-bottom:4rem;
 }
 
 .sessao-languages-content-item{
@@ -28,12 +27,28 @@
 /*breakpoints 360 | 480 | 768 | 980 | 1200 */
 
 @media only screen and (min-width:360px){
+    
+.sessao-languages .sessao-header h1{
+    margin-top: -10%;  
+}
     .sessao-languages-content{
         flex-direction: column;
+        justify-content:center;
     }
 }
 
+.sessao-languages-content-item{
+    width: 100%;   
+}
+
 @media only screen and (min-width:768px){
+    
+    .sessao-languages-content-item{
+        width: 30%;   
+    }
+    .sessao-languages .sessao-header h1{
+        margin-top: -7%;  
+    }
     .sessao-languages-content{
         flex-direction: row;
     }
