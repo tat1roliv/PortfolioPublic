@@ -128,19 +128,7 @@
             padding: .3rem;
             
         } 
-        #card-info-card1{
-            bottom: 65%;
-        }
-        #card-info-card2{
-            bottom: 36%;
-        }
-        .card:hover #card-info-card1{
-            bottom: 15%;
-        }
-        .card:hover #card-info-card2{
-            bottom: 15%;
 
-        }
 }
 
 @media only screen and (min-width:480px){
@@ -152,29 +140,22 @@
 }
 
 @media only screen and (min-width:768px){
+
     .projects{
         justify-content: space-evenly;
         flex-wrap: nowrap;
     }
+
     .card{
         margin-top: 0;
         margin: 0 .5rem;
     }
-    #card-info-card1{
-        bottom: 0;
-    }
-    #card-info-card2{
-        bottom: 0;
-    }
-    .card:hover #card-info-card1,
-    .card:hover #card-info-card2
-    {
-        bottom: 2rem;
-    }
-  
+
 }
 @media only screen and (min-width:940px){
+
     .card{
         margin: 0;
     }
+    
 }
