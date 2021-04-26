@@ -37,8 +37,6 @@
 }
 
 .card-info{
-    /*opacity:0;*/
-   /*visibility:hidden;*/
     position: absolute;
     bottom: 0;
     padding: 2rem;
@@ -99,8 +97,6 @@
 
 .card:hover .card-info {
     bottom: 2rem;
-    /*opacity:1;*/
-    /*visibility:visible;*/
 }
 
 .card:hover .card-info h3{
@@ -121,6 +117,7 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .card{
         margin-top: 0.5rem ;
     }
@@ -157,5 +154,5 @@
     .card{
         margin: 0;
     }
-    
+
 }

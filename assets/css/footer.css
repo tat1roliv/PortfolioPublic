@@ -10,7 +10,7 @@ footer{
 }
 
 .footer-content{
-    width: 60%;
+    width: 100%;
     display:flex;
     justify-content: space-between;
 }
@@ -41,4 +41,15 @@ footer{
 
 .social-list ul{
     display: flex; 
+}
+
+/*responsiveness*/
+/*breakpoints 360 | 480 | 768 | 980 | 1200 */
+
+@media only screen and (min-width:360px){
+
+}
+
+@media only screen and (min-width:940px){
+
 }
