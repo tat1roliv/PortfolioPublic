@@ -15,6 +15,10 @@ GLOBAL STYLES
     box-sizing: border-box;
 }
 
+body{
+    padding: 0;
+}
+
 a{
     text-decoration:none;
 }
@@ -50,6 +54,12 @@ html{
     border-radius:50%;
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5) ;
 }
+
+.container,
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
 #link-topo:hover{
     background:var(--color-contrast);;
 }
@@ -79,7 +89,6 @@ hr {
 #hr-no-bottom{
     margin-bottom: 0;
 }
-
 
  #linet1{
     margin-top: 0;  
