@@ -1,5 +1,4 @@
 # PortfolioPublic
  Public Version
-
-# Front
-Handmade using < Html + Css + Javascript + Bootstrap + Jquery >
+ Front-End Project
+ Handmade using < Html + Css + Javascript + Bootstrap + Jquery >
