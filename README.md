@@ -2,4 +2,4 @@
  Public Version
 
 # Front
-Handmaid using < Html + Css + Javascript + Bootstrap + Jquery >
+Handmade using < Html + Css + Javascript + Bootstrap + Jquery >
