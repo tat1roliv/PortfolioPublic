@@ -1,3 +1,4 @@
+/*circlechart animation*/
 
  $(function(){
   $('.circlechart').circlechart(); /*circle-chart for languages [jquery]*/
@@ -7,8 +8,6 @@
 
 
 /*hamburguer*/
-
-
 function menuHamburguer(){
     let hamburguer = document.querySelector(".hamburguer");
     hamburguer.addEventListener("click", () => {
@@ -16,5 +15,24 @@ function menuHamburguer(){
 });
 }
 
+/*link to top*/
+$(document).ready(function(){
+
+  //check view
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+          $('#link-topo').fadeIn();
+      } else {
+          $('#link-topo').fadeOut();
+      }
+  });
+
+  //link to top
+  $('#link-topo').click(function(){
+      $('html, body').animate({scrollTop : 0}, 1000);
+      return false;
+  });
+
+});
 
 

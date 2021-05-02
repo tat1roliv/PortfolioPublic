@@ -55,13 +55,14 @@ html{
     box-shadow: 0 0.1rem 0.3rem rgba(0,0,0,0.5) ;
 }
 
+#link-topo:hover{
+    background:var(--color-contrast);
+}
+
 .container,
 .container-fluid{
     padding-right: 0;
     padding-left: 0;
-}
-#link-topo:hover{
-    background:var(--color-contrast);;
 }
 
 .sessao-header{
