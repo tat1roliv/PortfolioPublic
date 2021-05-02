@@ -1,13 +1,13 @@
 .sessao-skills{
     background-color:#f5f5f5;
     width: 100%;
-    padding-top: 10vh;    
+  
 }
-
+/*
 .sessao-skills .sessao-header h1{
     margin-top: 2rem;
 }
-
+*/
 .skills{
     
     display: grid;
@@ -15,7 +15,8 @@
     grid-gap: 2rem;
     color: #4b4b4b;
     grid-template-columns: repeat(auto-fit, 1fr);
-    padding-bottom: 20vh;
+    padding-bottom: 4rem;
+
 
 }
 
