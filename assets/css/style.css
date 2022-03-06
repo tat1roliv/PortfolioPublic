@@ -598,6 +598,32 @@ header{
     color: var(--color-contrast);
 }
 
+/*-------------------------------------- LANGUAGES*/
+
+.section-languages {
+    background-color:var(--color-altprimary);
+    width: 100%;
+    font-family: var(--font-action);
+    color: var(--color-midgray);
+}
+
+.section-languages-content{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:4rem;
+}
+
+.section-languages-content-item{
+    width: 30%;
+    margin: 2rem; 
+    text-align:center; 
+}
+
+.section-languages-content-item{
+    width: 100%;   
+}
 
 /*-------------------------------------- MEDIA QUERIES */
 
@@ -628,6 +654,14 @@ header{
     .container .bio{
         width: 85%;
     } 
+        
+    .section-languages .sessao-header h1{
+        margin-top: -10%;  
+    }
+    .section-languages-content{
+        flex-direction: column;
+        justify-content:center;
+    }
 
 }
 
@@ -666,7 +700,17 @@ header{
 
     .section-skills .section-header h1{
         padding-top: 4rem;
-        }
+    }
+    
+    .section-languages-content-item{
+        width: 30%;   
+    }
+    .section-languages .sessao-header h1{
+        margin-top: -7%;  
+    }
+    .section-languages-content{
+        flex-direction: row;
+    }
       
 }
 
