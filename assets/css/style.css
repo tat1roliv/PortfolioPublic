@@ -526,6 +526,78 @@ header{
     justify-content:start;
 }
 
+/*-------------------------------------- SKILLS */
+
+.section-skills{
+    background-color:var(--color-altprimary);
+    width: 100%;  
+}
+
+.skills{   
+    display: grid;
+    padding:1rem;
+    grid-gap: 2rem;
+    color: var(--color-midgray);
+    grid-template-columns: repeat(auto-fit, 1fr);
+    padding-bottom: 4rem;
+}
+
+.skill{
+    padding:1rem;  
+}
+
+.skill:hover{
+    border: 1px solid var(--color-contrast);
+    border-radius: .5rem;
+}
+.skill:hover .skill-header{
+    color:var(--color-contrast);
+}
+
+.skill:hover .skill-header i{
+    color:var(--color-contrast);
+    font-size: 2.7rem;
+}
+.skill:hover .skill-header h3{
+    color: var(--color-contrast);
+    font-size: 1.7rem;
+}
+.skills-img-wrapper img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.skill-header {
+    display:flex;
+    align-items: center;
+}
+
+.skill-header i{
+    font-size: 2.5rem;
+    color: var(--color-midgray);
+}
+
+.skill-header h3{
+    font-family: var(--font-action);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.skill-text{
+    font-family: var(--font-primary);
+    font-weight: lighter;
+    margin-top: 1rem;
+    color: var(--color-midgray);
+    font-size: 1.125rem;
+    line-height: 1.2rem;
+}
+
+.skill-text a:hover{
+    font-size: 1.2rem;
+    color: var(--color-contrast);
+}
+
 
 /*-------------------------------------- MEDIA QUERIES */
 
@@ -591,6 +663,10 @@ header{
         font-size:1rem;
         padding-bottom: 1rem;
     }
+
+    .section-skills .section-header h1{
+        padding-top: 4rem;
+        }
       
 }
 
@@ -606,6 +682,10 @@ header{
         font-size:1.125rem;
         padding-bottom: 1.5rem;
     }
+
+    .section-skills .section-header h1{
+        padding-top: 3rem;
+        }
     
 }
 
