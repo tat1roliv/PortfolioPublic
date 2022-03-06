@@ -2,7 +2,7 @@
     ¯ \ _ (ツ) _ / ¯ -->
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en_US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,8 @@
     <title>Tati Oliveira | Front-End Developer</title>
     <meta name="description" content="Tati Oliveira | Front-End Developer | Web Developer | Systems Analyst">
     <!-- SEO -->
-    <meta property="og:locale" content="pt-br">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="pt-br, es_ES"/>
     <meta property="og:site_name" content="Tati Oliveira | Front-End Developer">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Tati Oliveira" />
@@ -31,9 +32,6 @@
     <link rel="stylesheet" href="assets/css/progresscircle.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="assets/css/hamburguer.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/bio.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/languages.css">
@@ -43,7 +41,7 @@
     <link rel="stylesheet" href="assets/css/footer.css">  
 </head>
 <body>
-    <!--hamburguer-->
+    <!--banner intro-->
     <div class="container-fluid"> 
         <div class="hamburguer" >
             <div class="line" id="line1"></div>
@@ -51,16 +49,12 @@
             <div class="line" id="line3"></div>
             <span>Close</span>
         </div>
-        <!--home-->
         <header id="home">
             <div class="img-wrapper">
-                <picture>
-                    <source media="(min-width:1200px)" srcset="assets/images/background_large.jpg">
-                    <img src="assets/images/background_default.jpg">
-                </picture>
+                <img src="assets/images/background_default.jpg">
             </div>
             <div class="banner">
-                <h1>Front End Developer</h1> 
+                <h1>Front-end Developer</h1> 
                 <p>Tati Oliveira</p>
                 <a href="#bio" class="btn-link"><button class="btn">Read more</button></a>
             </div>
@@ -68,16 +62,14 @@
         <!--sidebar-->
         <aside class="sidebar">
             <nav>
-                <ul class="menu ">
+                <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
                     <li class="menu-item"><a href="#bio" class="menu-link">About</a></li>
                     <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
                     <li class="menu-item"><a href="#languages" class="menu-link">Languages</a></li>
-                    <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>
-                    <li class="menu-item"><a href="#contact" class="menu-link">Contact</a></li>                 
+                    <li class="menu-item"><a href="#projects" class="menu-link">Projects</a></li>              
                 </ul>
             </nav>
-
             <div class="social-media">
                 <a href="https://www.linkedin.com/in/tatiroliveira"target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://github.com/tat1roliv"target="_blank"><i class="fab fa-github"></i></a>
@@ -148,7 +140,7 @@
         <section class="sessao-skills" id="skills">
             <div class="container">
 
-                <div class="sessao-header">
+                <div class="section-header">
                     <h1>Skills</h1>
                 </div>
              
@@ -257,7 +249,7 @@
         <section class="sessao-languages" id="languages"> 
             <div class="container">
                 <hr id="linet1"/><!--line-->
-                <div class="sessao-header">
+                <div class="section-header">
                     
                     <h1>Languages</h1>
                 </div>
@@ -280,7 +272,7 @@
 
         <!--section projects-->
         <section class="sessao-projects" id="projects">           
-            <div class="sessao-header">
+            <div class="section-header">
                 <h1>Projects</h1>
             </div>
 
