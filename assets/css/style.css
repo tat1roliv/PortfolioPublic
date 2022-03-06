@@ -1,11 +1,9 @@
-/*************
-GLOBAL STYLES
-**************/
-
 /*import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;1,400;1,500&family=Mulish:ital,wght@0,400;0,500;1,300;1,400&display=swap');
 /*cdn font-awesome*/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+/*-------------------------------------- GLOBAL STYLES */
 
 *{
     margin: 0;
@@ -94,3 +92,4 @@ hr {
  #linet1{
     margin-top: 0;  
 }
+
