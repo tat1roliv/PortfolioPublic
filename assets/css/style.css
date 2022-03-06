@@ -625,6 +625,167 @@ header{
     width: 100%;   
 }
 
+/*-------------------------------------- PROJECTS */
+
+.section-projects{
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.projects{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+}
+
+.card{
+    width: 18rem;
+    height: 25rem;
+    margin: 2rem;
+}
+
+.card-image-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #262626;
+    border-radius: 0.5rem;
+}
+
+.card-image-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: .5;  
+    transition:opacity .5s;
+}
+
+.card:hover .card-image-wrapper img{
+    opacity: 0.2;
+}
+
+.card-info{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    text-shadow: 0 .2rem .3rem rgba(0,0,0,.4);
+    transition: all .5s;
+}
+
+.card-info h2{
+    font-family: var(--font-primary);
+    font-size:2rem;
+    font-weight:500;
+    color: var(--color-altprimary);
+}
+
+.card-info h3{
+    font-family: var(--font-action);
+    font-weight: bolder;
+    color: var(--color-secundary);
+    font-size:1.5rem;
+    margin-bottom:1rem;
+}
+
+.card-info p{
+    font-family: var(--font-secundary);
+    color: var(--color-altprimary);
+    width: 80%;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-bottom:1.5rem;
+    text-shadow:0 .4rem .8rem rgba(0,0,0,0.4)
+}
+
+.btn{
+    background: -webkit-linear-gradient(to right, var(--color-secundary), var(--color-action));  
+    background: linear-gradient(to left, var(--color-secundary), var(--color-action)); 
+    color: var(--color-primary);
+    font-size: 1rem;
+    font-family: var(--font-action);
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow:0 .1rem .8rem rgba(0,0,0,0.4)
+}
+
+.btn-projects a{
+    color: var(--color-primary);
+}
+
+.btn-projects a:hover{
+    color:var(--color-primary);
+    text-decoration: none;
+    font-size: bolder;
+}
+
+.card-info button{
+    width:8rem;
+    height:2.5rem;
+}
+
+.card:hover .card-info {
+    bottom: 2rem;
+}
+
+.card:hover .card-info h3{
+    color: var(--color-contrast);
+}
+
+.card:hover .btn-projects{
+    background:var(--color-contrast);
+    color:var(--color-primary);
+}
+
+/*-------------------------------------- FOOTER */
+
+footer{
+    width: 100%;
+    height: 8rem;
+    background-color:var(--color-font);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.footer-content{
+    max-width: 100%;
+    display:flex;
+    margin-left:1rem;
+    margin-right:1rem;
+    justify-content: space-between;
+}
+
+.footer-content p{
+    color: var(--color-altprimary);
+    font-family: var(--font-secundary);
+    font-size: 1rem;
+}
+
+.footer-content a{
+    margin: 0 2rem;
+    text-decoration: none;
+    color: var(--color-altprimary);
+    transition: all 0.5s;
+}
+
+.footer-content a:hover{
+    color: var(--color-contrast);
+    font-size: 2rem;
+}
+
+footer .social-list{
+    margin: 0 1rem;
+    color: var(--color-altprimary);
+    font-size:1rem;
+}
+
+.social-list ul{
+    display: flex; 
+}
+
+
 /*-------------------------------------- MEDIA QUERIES */
 
 @media only screen and (min-width:320px){
@@ -662,6 +823,17 @@ header{
         flex-direction: column;
         justify-content:center;
     }
+    .projects{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin-top: 0.5rem ;
+    }
+    .card-info{
+        padding: .5rem;    
+    } 
 
 }
 
@@ -669,6 +841,10 @@ header{
 
     .container .bio .bio-card-text li{
         margin-bottom:0.5rem;
+    }
+
+    footer .social-list ul{
+        display:none;
     }
 
 }
@@ -711,7 +887,21 @@ header{
     .section-languages-content{
         flex-direction: row;
     }
-      
+    .projects{
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        margin-top: 0;
+        margin: 0 .5rem;
+    }
+    .card-info{
+        padding: .75rem;    
+    } 
+    .footer .social-list li{
+        display:block;
+    }
 }
 
 @media only screen and (min-width:1200px){
@@ -729,7 +919,10 @@ header{
 
     .section-skills .section-header h1{
         padding-top: 3rem;
-        }
+    }
+    .card{
+        margin: 0;
+    }
     
 }
 
